@@ -16,9 +16,9 @@
 
 ### 出行方向的SDK
 - [出行基础SDK接口文档](mobility-ios/v1.1.0)
-- [检索SDK接口文档](suggestion-ios/v1.1.0)
+- [检索SDK接口文档](suggestion-ios/v1.2.2)
 - [周边车辆SDK接口文档](nearbycar-ios/v1.1.0)
-- [推荐上车点SDK接口文档](boardingplaces-ios/v1.1.0)
+- [推荐上车点SDK接口文档](boardingplaces-ios/v1.1.4)
 
 
 ### 司乘同显
