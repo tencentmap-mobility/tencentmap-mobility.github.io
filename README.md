@@ -34,3 +34,9 @@
 
 ### 导航SDK
 -  [导航SDK接口文档](navigation-ios/v5.2.1)
+
+
+
+# 导航接入文档
+-  [iOS导航SDK接口文档](navigation-ios/docs-5.2.1/腾讯iOS导航SDK接入文档v5.2.1.docx)
+-  [Android导航SDK接口文档](navigation-android/docs-v5.2.1/腾讯Android导航SDK接入文档v5.2.1.1.docx)
