@@ -12,6 +12,9 @@
 - [司乘同显SDKV1接口文档](locussynchro-v1-android/v1.0.6)
 - 司乘同显SDKV2接口文档(建设中)
 
+### 导航SDK
+-  [导航SDK接口文档](navigation-android/v5.2.1)
+
 # iOS
 
 ### 出行方向的SDK
@@ -28,3 +31,6 @@
    - [基础库接口文档](locussynchro-v2-ios/v2.1.0/fundation)
    - [司机端接口文档](locussynchro-v2-ios/v2.1.0/driver)
    - [乘客端接口文档](locussynchro-v2-ios/v2.1.0/passenger)
+
+### 导航SDK
+-  [导航SDK接口文档](navigation-ios/v5.2.1)
