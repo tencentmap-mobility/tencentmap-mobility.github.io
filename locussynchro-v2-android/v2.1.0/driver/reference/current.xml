@@ -1,0 +1,559 @@
+<api>
+<package name="com.tencent.map.lsdriver"
+>
+<class name="TSLDExtendManager"
+ extends="com.tencent.map.lsdriver.TSLDriverManager"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<constructor name="TSLDExtendManager"
+ type="com.tencent.map.lsdriver.TSLDExtendManager"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</constructor>
+<method name="addRemoveWayPointCallBack"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="callBack" type="com.tencent.map.lsdriver.lsd.listener.DriDataListener.IRemoveWayByUserCallBack">
+</parameter>
+</method>
+<method name="arrivedPassengerEndPoint"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="pOrderId" type="java.lang.String">
+</parameter>
+</method>
+<method name="arrivedPassengerStartPoint"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="pOrderId" type="java.lang.String">
+</parameter>
+</method>
+<method name="getInstance"
+ return="com.tencent.map.lsdriver.TSLDExtendManager"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="requestBestSortedWayPoints"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="from" type="NaviPoi">
+</parameter>
+<parameter name="wayPoints" type="java.util.ArrayList&lt;TLSDWayPointInfo&gt;">
+</parameter>
+<parameter name="callBack" type="com.tencent.map.lsdriver.lsd.listener.DriDataListener.ISortedWayPointsCallBack">
+</parameter>
+</method>
+<method name="requestBestSortedWayPoints"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="from" type="NaviPoi">
+</parameter>
+<parameter name="to" type="NaviPoi">
+</parameter>
+<parameter name="wayPoints" type="java.util.ArrayList&lt;TLSDWayPointInfo&gt;">
+</parameter>
+<parameter name="callBack" type="com.tencent.map.lsdriver.lsd.listener.DriDataListener.ISortedWayPointsCallBack">
+</parameter>
+</method>
+<method name="searchCarRoutes"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="from" type="NaviPoi">
+</parameter>
+<parameter name="ws" type="java.util.ArrayList&lt;TLSDWayPointInfo&gt;">
+</parameter>
+<parameter name="searchOptions" type="CarRouteSearchOptions">
+</parameter>
+<parameter name="callback" type="com.tencent.map.lsdriver.lsd.listener.DriDataListener.ISearchCallBack">
+</parameter>
+</method>
+<method name="searchCarRoutes"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="from" type="NaviPoi">
+</parameter>
+<parameter name="to" type="NaviPoi">
+</parameter>
+<parameter name="ws" type="java.util.ArrayList&lt;TLSDWayPointInfo&gt;">
+</parameter>
+<parameter name="searchOptions" type="CarRouteSearchOptions">
+</parameter>
+<parameter name="callback" type="com.tencent.map.lsdriver.lsd.listener.DriDataListener.ISearchCallBack">
+</parameter>
+</method>
+<method name="setCarNaviView"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="naviView" type="CarNaviView">
+</parameter>
+</method>
+<method name="setNaviManager"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="manager" type="TencentCarNaviManager">
+</parameter>
+</method>
+<method name="uploadRouteWithIndex"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="routeIndex" type="int">
+</parameter>
+</method>
+</class>
+<class name="TSLDriverManager"
+ extends="DriverManager"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<constructor name="TSLDriverManager"
+ type="com.tencent.map.lsdriver.TSLDriverManager"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</constructor>
+<method name="addTLSDriverListener"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="listener" type="com.tencent.map.lsdriver.lsd.listener.DriDataListener.ITLSDriverListener">
+</parameter>
+</method>
+<method name="fetchPassengerPositionsEnabled"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="isFetch" type="boolean">
+</parameter>
+</method>
+<method name="getInstance"
+ return="com.tencent.map.lsdriver.TSLDriverManager"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getTLSBOrder"
+ return="TLSBOrder"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getTLSBRoute"
+ return="TLSBRoute"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="init"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="applicationContext" type="android.content.Context">
+</parameter>
+<parameter name="config" type="TLSConfigPreference">
+</parameter>
+</method>
+<method name="isRuning"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="resetOrder"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="setDriverPullTimenterval"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="sec" type="int">
+</parameter>
+</method>
+<method name="start"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="stop"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="uploadPosition"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="position" type="TLSBDriverPosition">
+</parameter>
+</method>
+<method name="uploadRoute"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="route" type="TLSBRoute">
+</parameter>
+</method>
+</class>
+</package>
+<package name="com.tencent.map.lsdriver.lsd.listener"
+>
+<class name="DriDataListener"
+ extends="java.lang.Object"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<constructor name="DriDataListener"
+ type="com.tencent.map.lsdriver.lsd.listener.DriDataListener"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</constructor>
+</class>
+<interface name="DriDataListener.IPushRouteToServiceListener"
+ abstract="true"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<method name="onPushRouteFail"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="errCode" type="int">
+</parameter>
+<parameter name="errStr" type="java.lang.String">
+</parameter>
+</method>
+<method name="onPushRouteSuc"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+</interface>
+<interface name="DriDataListener.IRemoveWayByUserCallBack"
+ abstract="true"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<method name="onRemoveWayPoint"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="wayPoints" type="java.util.ArrayList&lt;TLSDWayPointInfo&gt;">
+</parameter>
+</method>
+</interface>
+<interface name="DriDataListener.ISearchCallBack"
+ abstract="true"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<method name="onParamsInvalid"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="errCode" type="int">
+</parameter>
+<parameter name="errMsg" type="java.lang.String">
+</parameter>
+</method>
+</interface>
+<interface name="DriDataListener.ISortedWayPointsCallBack"
+ abstract="true"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<method name="onSortedWayFail"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="errCode" type="int">
+</parameter>
+<parameter name="errMsg" type="java.lang.String">
+</parameter>
+</method>
+<method name="onSortedWaysSuc"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="sortedWays" type="java.util.ArrayList&lt;TLSDWayPointInfo&gt;">
+</parameter>
+</method>
+</interface>
+<interface name="DriDataListener.ITLSDriverListener"
+ abstract="true"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="com.tencent.map.lsdriver.lsd.listener.DriDataListener.IPushRouteToServiceListener">
+</implements>
+<method name="onPullLsInfoFail"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="errCode" type="int">
+</parameter>
+<parameter name="errMsg" type="java.lang.String">
+</parameter>
+</method>
+<method name="onPullLsInfoSuc"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="los" type="java.util.ArrayList&lt;TLSBPosition&gt;">
+</parameter>
+</method>
+<method name="onPushPositionFail"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="errCode" type="int">
+</parameter>
+<parameter name="errMsg" type="java.lang.String">
+</parameter>
+</method>
+<method name="onPushPositionSuc"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+</interface>
+</package>
+</api>

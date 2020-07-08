@@ -1,0 +1,366 @@
+<api>
+<package name="com.tencent.map.lspassenger"
+>
+<class name="TSLPassengerManager"
+ extends="PassengerManager"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<constructor name="TSLPassengerManager"
+ type="com.tencent.map.lspassenger.TSLPassengerManager"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</constructor>
+<method name="addTLSPassengerListener"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="listener" type="com.tencent.map.lspassenger.lsp.listener.PsgDataListener.ITLSPassengerListener">
+</parameter>
+</method>
+<method name="getInstance"
+ return="com.tencent.map.lspassenger.TSLPassengerManager"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getTLSPOrder"
+ return="TLSPOrder"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="init"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="applicationContext" type="android.content.Context">
+</parameter>
+<parameter name="config" type="TLSConfigPreference">
+</parameter>
+</method>
+<method name="isRuning"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="resetOrder"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="setPullTimeInterval"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="timeInterval" type="int">
+</parameter>
+</method>
+<method name="start"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="stop"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="uploadPassengerPositionsEnabled"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="isPush" type="boolean">
+</parameter>
+</method>
+<method name="uploadPosition"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="position" type="TLSBPosition">
+</parameter>
+</method>
+</class>
+</package>
+<package name="com.tencent.map.lspassenger.anima"
+>
+<class name="MarkerTranslateAnimator"
+ extends="OverlayAnimator"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<constructor name="MarkerTranslateAnimator"
+ type="com.tencent.map.lspassenger.anima.MarkerTranslateAnimator"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="marker" type="Marker">
+</parameter>
+<parameter name="duration" type="long">
+</parameter>
+<parameter name="latLngs" type="LatLng[]">
+</parameter>
+</constructor>
+<constructor name="MarkerTranslateAnimator"
+ type="com.tencent.map.lspassenger.anima.MarkerTranslateAnimator"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="marker" type="Marker">
+</parameter>
+<parameter name="duration" type="long">
+</parameter>
+<parameter name="latLngs" type="LatLng[]">
+</parameter>
+<parameter name="rotateEnabled" type="boolean">
+</parameter>
+</constructor>
+<method name="cancelAnimation"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="endAnimation"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="setFloatValuesListener"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="listener" type="com.tencent.map.lspassenger.anima.MarkerTranslateAnimator.IAnimaFloatValuesListener">
+</parameter>
+</method>
+<method name="startAnimation"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+</class>
+<interface name="MarkerTranslateAnimator.IAnimaFloatValuesListener"
+ abstract="true"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<method name="floatValues"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="latLng" type="LatLng">
+</parameter>
+</method>
+</interface>
+</package>
+<package name="com.tencent.map.lspassenger.lsp.listener"
+>
+<class name="PsgDataListener"
+ extends="java.lang.Object"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<constructor name="PsgDataListener"
+ type="com.tencent.map.lspassenger.lsp.listener.PsgDataListener"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</constructor>
+</class>
+<interface name="PsgDataListener.IPullRouteAndPosFromService"
+ abstract="true"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<method name="onPullLsInfoFail"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="errCode" type="int">
+</parameter>
+<parameter name="errMsg" type="java.lang.String">
+</parameter>
+</method>
+<method name="onPullLsInfoSuc"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="fetchedData" type="TLSDFetchedData">
+</parameter>
+</method>
+</interface>
+<interface name="PsgDataListener.IPushPositionToService"
+ abstract="true"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<method name="onPushPositionFail"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="errCode" type="int">
+</parameter>
+<parameter name="errMsg" type="java.lang.String">
+</parameter>
+</method>
+<method name="onPushPositionSuc"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+</interface>
+<interface name="PsgDataListener.ITLSPassengerListener"
+ abstract="true"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="com.tencent.map.lspassenger.lsp.listener.PsgDataListener.IPullRouteAndPosFromService">
+</implements>
+<implements name="com.tencent.map.lspassenger.lsp.listener.PsgDataListener.IPushPositionToService">
+</implements>
+</interface>
+</package>
+</api>
