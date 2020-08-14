@@ -1,7 +1,8 @@
 var files_dup =
 [
     [ "TMMNearbyCarConfig.h", "_t_m_m_nearby_car_config_8h.html", [
-      [ "TMMNearbyCarConfig", "interface_t_m_m_nearby_car_config.html", "interface_t_m_m_nearby_car_config" ]
+      [ "TMMNearbyCarConfig", "interface_t_m_m_nearby_car_config.html", "interface_t_m_m_nearby_car_config" ],
+      [ "TMMNearbyCarTypeConfig", "interface_t_m_m_nearby_car_type_config.html", "interface_t_m_m_nearby_car_type_config" ]
     ] ],
     [ "TMMNearbyCarModel.h", "_t_m_m_nearby_car_model_8h.html", [
       [ "TMMNearbyCarModel", "interface_t_m_m_nearby_car_model.html", "interface_t_m_m_nearby_car_model" ]

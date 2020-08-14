@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['initwithmapview_3adelagate_3a_56',['initWithMapView:delagate:',['../interface_t_m_m_nearby_cars_manager.html#a19a9432e4046b419e964d1cd9dccd799',1,'TMMNearbyCarsManager']]]
+  ['getnearbycars_61',['getNearbyCars',['../interface_t_m_m_nearby_cars_manager.html#a4d37b70365d9dba35a294da175b289a0',1,'TMMNearbyCarsManager']]]
 ];

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['slat_21',['slat',['../interface_t_m_m_nearby_car_model.html#adca8778654544dc4be309b6b5e97ad89',1,'TMMNearbyCarModel']]],
-  ['slng_22',['slng',['../interface_t_m_m_nearby_car_model.html#a7855a389fd2cb801e85b6b7141d3d585',1,'TMMNearbyCarModel']]],
-  ['start_5fidx_23',['start_idx',['../interface_t_m_m_nearby_car_model.html#af6c3216f1224d9c9df26f8d0b4124417',1,'TMMNearbyCarModel']]]
+  ['radius_20',['radius',['../interface_t_m_m_nearby_car_config.html#ab15a4d316d7c6c507fcff3fd4b9e5c90',1,'TMMNearbyCarConfig']]],
+  ['removeallnearbycars_21',['removeAllNearbyCars',['../interface_t_m_m_nearby_cars_manager.html#ae1156c89622aca7a36a2149cafa51f41',1,'TMMNearbyCarsManager']]],
+  ['requestrepeatedly_22',['requestRepeatedly',['../interface_t_m_m_nearby_car_config.html#a299cbf14ab6a03288bfa67c39b56ce42',1,'TMMNearbyCarConfig']]]
 ];

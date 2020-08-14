@@ -1,6 +1,7 @@
 var interface_t_m_m_nearby_car_config =
 [
-    [ "carIconDictionary", "interface_t_m_m_nearby_car_config.html#af871d96b57b36747d3d66a282bd317d4", null ],
+    [ "__attribute__", "interface_t_m_m_nearby_car_config.html#a217ec202ee1fafa3549e3d13a0cf8885", null ],
+    [ "carTypeConfigDictionary", "interface_t_m_m_nearby_car_config.html#a817502860162bbb571d40eefe157aeb1", null ],
     [ "mock", "interface_t_m_m_nearby_car_config.html#af946987774b9c6d5820fbd2f0f92ef2a", null ],
     [ "num", "interface_t_m_m_nearby_car_config.html#a88c547fee0705a8a8efe6d194bfba01e", null ],
     [ "radius", "interface_t_m_m_nearby_car_config.html#ab15a4d316d7c6c507fcff3fd4b9e5c90", null ],

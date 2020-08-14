@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['unavailable_5fattribute_60',['UNAVAILABLE_ATTRIBUTE',['../interface_t_m_m_nearby_cars_manager.html#a4bcf16ca385fc9610622842c7f2f04a3',1,'TMMNearbyCarsManager']]]
+  ['tmmnearbycarsmanager_3arequestfailed_3a_65',['TMMNearbyCarsManager:requestFailed:',['../protocol_t_m_m_nearby_cars_manager_delegate-p.html#ad028341137b478814d0ac3ec5ff84e4b',1,'TMMNearbyCarsManagerDelegate-p']]]
 ];

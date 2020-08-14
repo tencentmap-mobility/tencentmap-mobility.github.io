@@ -1,19 +1,6 @@
 var searchData=
 [
-  ['tencentmapmobilitynearbycarssdkversion_24',['TencentMapMobilityNearbyCarsSDKVersion',['../_t_m_m_nearby_cars_8h.html#a96b2142e4afc93764749cd2468e073d6',1,'TMMNearbyCars.h']]],
-  ['tencentmapmobilitynearbycarsversionnumber_25',['TencentMapMobilityNearbyCarsVersionNumber',['../_t_m_m_nearby_cars_8h.html#a868238098277f28c52d8bc0dce4d8f77',1,'TMMNearbyCars.h']]],
-  ['timedelta_26',['timeDelta',['../interface_t_m_m_nearby_car_config.html#a798b1ccf9b18d4d644a4b1de1414b4b2',1,'TMMNearbyCarConfig']]],
-  ['tmmnearbycarconfig_27',['TMMNearbyCarConfig',['../interface_t_m_m_nearby_car_config.html',1,'']]],
-  ['tmmnearbycarconfig_2eh_28',['TMMNearbyCarConfig.h',['../_t_m_m_nearby_car_config_8h.html',1,'']]],
-  ['tmmnearbycarmodel_29',['TMMNearbyCarModel',['../interface_t_m_m_nearby_car_model.html',1,'']]],
-  ['tmmnearbycarmodel_2eh_30',['TMMNearbyCarModel.h',['../_t_m_m_nearby_car_model_8h.html',1,'']]],
-  ['tmmnearbycarrequest_31',['TMMNearbyCarRequest',['../interface_t_m_m_nearby_car_request.html',1,'']]],
-  ['tmmnearbycarrequest_2eh_32',['TMMNearbyCarRequest.h',['../_t_m_m_nearby_car_request_8h.html',1,'']]],
-  ['tmmnearbycarresponse_33',['TMMNearbyCarResponse',['../interface_t_m_m_nearby_car_response.html',1,'']]],
-  ['tmmnearbycarresponse_2eh_34',['TMMNearbyCarResponse.h',['../_t_m_m_nearby_car_response_8h.html',1,'']]],
-  ['tmmnearbycars_2eh_35',['TMMNearbyCars.h',['../_t_m_m_nearby_cars_8h.html',1,'']]],
-  ['tmmnearbycarsmanager_36',['TMMNearbyCarsManager',['../interface_t_m_m_nearby_cars_manager.html',1,'']]],
-  ['tmmnearbycarsmanager_2eh_37',['TMMNearbyCarsManager.h',['../_t_m_m_nearby_cars_manager_8h.html',1,'']]],
-  ['tmmnearbycarsmanager_3arequestfailed_3a_38',['TMMNearbyCarsManager:requestFailed:',['../protocol_t_m_m_nearby_cars_manager_delegate-p.html#ad028341137b478814d0ac3ec5ff84e4b',1,'TMMNearbyCarsManagerDelegate-p']]],
-  ['tmmnearbycarsmanagerdelegate_2dp_39',['TMMNearbyCarsManagerDelegate-p',['../protocol_t_m_m_nearby_cars_manager_delegate-p.html',1,'']]]
+  ['slat_23',['slat',['../interface_t_m_m_nearby_car_model.html#adca8778654544dc4be309b6b5e97ad89',1,'TMMNearbyCarModel']]],
+  ['slng_24',['slng',['../interface_t_m_m_nearby_car_model.html#a7855a389fd2cb801e85b6b7141d3d585',1,'TMMNearbyCarModel']]],
+  ['start_5fidx_25',['start_idx',['../interface_t_m_m_nearby_car_model.html#af6c3216f1224d9c9df26f8d0b4124417',1,'TMMNearbyCarModel']]]
 ];

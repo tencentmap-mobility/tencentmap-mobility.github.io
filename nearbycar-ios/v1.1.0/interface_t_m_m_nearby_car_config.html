@@ -82,6 +82,7 @@ $(document).ready(function(){initNavTree('interface_t_m_m_nearby_car_config.html
 
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Instance Methods</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="interface_t_m_m_nearby_car_config-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -100,6 +101,12 @@ Inheritance diagram for TMMNearbyCarConfig:</div>
   <img src="interface_t_m_m_nearby_car_config.png" alt=""/>
  </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Instance Methods</h2></td></tr>
+<tr class="memitem:a217ec202ee1fafa3549e3d13a0cf8885"><td class="memItemLeft" align="right" valign="top">(NSDictionary&lt; NSNumber *, UIImage * &gt; *carIconDictionary)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_t_m_m_nearby_car_config.html#a217ec202ee1fafa3549e3d13a0cf8885">__attribute__</a></td></tr>
+<tr class="memdesc:a217ec202ee1fafa3549e3d13a0cf8885"><td class="mdescLeft">&#160;</td><td class="mdescRight">自定义替换车型图片 （非必须） key分别可以取vehicle_types的 1～6，value对应的是自定义的图片  <a href="interface_t_m_m_nearby_car_config.html#a217ec202ee1fafa3549e3d13a0cf8885">More...</a><br /></td></tr>
+<tr class="separator:a217ec202ee1fafa3549e3d13a0cf8885"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:ab15a4d316d7c6c507fcff3fd4b9e5c90"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_t_m_m_nearby_car_config.html#ab15a4d316d7c6c507fcff3fd4b9e5c90">radius</a></td></tr>
@@ -117,18 +124,39 @@ Properties</h2></td></tr>
 <tr class="memitem:a798b1ccf9b18d4d644a4b1de1414b4b2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_t_m_m_nearby_car_config.html#a798b1ccf9b18d4d644a4b1de1414b4b2">timeDelta</a></td></tr>
 <tr class="memdesc:a798b1ccf9b18d4d644a4b1de1414b4b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">延时 （非必须） 筛选司机最后更新状态的时间间隔，秒为单位 范围[0,86400] 如果不传，默认是：60  <a href="interface_t_m_m_nearby_car_config.html#a798b1ccf9b18d4d644a4b1de1414b4b2">More...</a><br /></td></tr>
 <tr class="separator:a798b1ccf9b18d4d644a4b1de1414b4b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af871d96b57b36747d3d66a282bd317d4"><td class="memItemLeft" align="right" valign="top">NSDictionary&lt; NSNumber *, UIImage * &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_t_m_m_nearby_car_config.html#af871d96b57b36747d3d66a282bd317d4">carIconDictionary</a></td></tr>
-<tr class="memdesc:af871d96b57b36747d3d66a282bd317d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">自定义替换车型图片 （非必须） key分别可以取vehicle_types的 1～6，value对应的是自定义的图片  <a href="interface_t_m_m_nearby_car_config.html#af871d96b57b36747d3d66a282bd317d4">More...</a><br /></td></tr>
-<tr class="separator:af871d96b57b36747d3d66a282bd317d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a817502860162bbb571d40eefe157aeb1"><td class="memItemLeft" align="right" valign="top">NSDictionary&lt; NSNumber *, <a class="el" href="interface_t_m_m_nearby_car_type_config.html">TMMNearbyCarTypeConfig</a> * &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_t_m_m_nearby_car_config.html#a817502860162bbb571d40eefe157aeb1">carTypeConfigDictionary</a></td></tr>
+<tr class="memdesc:a817502860162bbb571d40eefe157aeb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">自定义替换车型配置 （非必须） key分别可以取vehicle_types的 1～6，value对应的是自定义的配置  <a href="interface_t_m_m_nearby_car_config.html#a817502860162bbb571d40eefe157aeb1">More...</a><br /></td></tr>
+<tr class="separator:a817502860162bbb571d40eefe157aeb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a299cbf14ab6a03288bfa67c39b56ce42"><td class="memItemLeft" align="right" valign="top">BOOL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_t_m_m_nearby_car_config.html#a299cbf14ab6a03288bfa67c39b56ce42">requestRepeatedly</a></td></tr>
 <tr class="memdesc:a299cbf14ab6a03288bfa67c39b56ce42"><td class="mdescLeft">&#160;</td><td class="mdescRight">是否轮询请求周边车辆，默认为YES.如果开启，则60s重新请求一次周边车辆  <a href="interface_t_m_m_nearby_car_config.html#a299cbf14ab6a03288bfa67c39b56ce42">More...</a><br /></td></tr>
 <tr class="separator:a299cbf14ab6a03288bfa67c39b56ce42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>周边车辆配置类 </p>
-</div><h2 class="groupheader">Property Documentation</h2>
-<a id="af871d96b57b36747d3d66a282bd317d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af871d96b57b36747d3d66a282bd317d4">&#9670;&nbsp;</a></span>carIconDictionary</h2>
+</div><h2 class="groupheader">Method Documentation</h2>
+<a id="a217ec202ee1fafa3549e3d13a0cf8885"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a217ec202ee1fafa3549e3d13a0cf8885">&#9670;&nbsp;</a></span>__attribute__</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSDictionary&lt;NSNumber *, UIImage *&gt;* carIconDictionary) __attribute__ </td>
+          <td></td>
+          <td class="paramtype">((deprecated(&quot;use carTypeConfigDictionary!&quot;)))&#160;</td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>自定义替换车型图片 （非必须） key分别可以取vehicle_types的 1～6，value对应的是自定义的图片 </p>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a817502860162bbb571d40eefe157aeb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a817502860162bbb571d40eefe157aeb1">&#9670;&nbsp;</a></span>carTypeConfigDictionary</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137,7 +165,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">- (NSDictionary&lt;NSNumber *, UIImage *&gt;*) carIconDictionary</td>
+          <td class="memname">- (NSDictionary&lt;NSNumber *, <a class="el" href="interface_t_m_m_nearby_car_type_config.html">TMMNearbyCarTypeConfig</a> *&gt;*) carTypeConfigDictionary</td>
         </tr>
       </table>
   </td>
@@ -147,7 +175,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>自定义替换车型图片 （非必须） key分别可以取vehicle_types的 1～6，value对应的是自定义的图片 </p>
+<p>自定义替换车型配置 （非必须） key分别可以取vehicle_types的 1～6，value对应的是自定义的配置 </p>
 
 </div>
 </div>
