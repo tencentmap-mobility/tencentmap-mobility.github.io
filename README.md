@@ -17,7 +17,7 @@
 
 
 ### 导航SDK
--  [导航SDK接口文档](navigation-android/v5.2.3)
+-  [导航SDK接口文档](navigation-android/v5.2.3.1)
 
 # iOS
 
@@ -37,10 +37,10 @@
    - [乘客端接口文档](locussynchro-v2-ios/v2.1.0/passenger)
 
 ### 导航SDK
--  [导航SDK接口文档](navigation-ios/v5.2.3)
+-  [导航SDK接口文档](navigation-ios/v5.2.3.1)
 
 
 
 # 导航接入文档
--  [iOS导航SDK接入文档](navigation-ios/docs-5.2.3/腾讯iOS导航SDK接入文档v5.2.3.pdf)
--  [Android导航SDK接入文档](navigation-android/docs-5.2.3/腾讯Android导航SDK接入文档v5.2.3.pdf)
+-  [iOS导航SDK接入文档](navigation-ios/docs-5.2.3.1/腾讯iOS导航SDK接入文档v5.2.3.1.pdf)
+-  [Android导航SDK接入文档](navigation-android/docs-5.2.3.1/腾讯Android导航SDK接入文档v5.2.3.1.pdf)
