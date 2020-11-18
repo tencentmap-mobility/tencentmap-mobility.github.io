@@ -249,11 +249,14 @@ Summary:
 
 
 
+  <a href="#constants">Constants</a>
+  
 
 
 
 
-  <a href="#pubctors">Ctors</a>
+
+  &#124; <a href="#pubctors">Ctors</a>
   
 
 
@@ -394,6 +397,31 @@ Summary:
 
 
 
+
+
+<!-- =========== ENUM CONSTANT SUMMARY =========== -->
+<table id="constants" class="jd-sumtable"><tr><th colspan="12">Constants</th></tr>
+
+
+    
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">float</td>
+        <td class="jd-linkcol"><a href="../../../../../com/tencent/map/navi/car/CarNaviView.html#ENLARGED_INTERSECTION_ASPECT_RATIO">ENLARGED_INTERSECTION_ASPECT_RATIO</a></td>
+        <td class="jd-descrcol" width="100%">路口放大图的宽高比: 340.0f / 291.0f
+</td>
+    </tr>
+    
+    
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">float</td>
+        <td class="jd-linkcol"><a href="../../../../../com/tencent/map/navi/car/CarNaviView.html#ENLARGED_PROGRESS_PANEL_HEIGHT_DP">ENLARGED_PROGRESS_PANEL_HEIGHT_DP</a></td>
+        <td class="jd-descrcol" width="100%">进度面板高度: 48dp， 其宽度自动适配，与放大图宽度保持一致。
+</td>
+    </tr>
+    
+    
+
+</table>
 
 
 
@@ -782,7 +810,7 @@ Summary:
         <td class="jd-linkcol" width="100%">
         <span class="sympad"><a href="../../../../../com/tencent/map/navi/car/CarNaviView.html#setEnlargedIntersectionProgressVisible(boolean)">setEnlargedIntersectionProgressVisible</a></span>(boolean visible)
         
-        <div class="jd-descrdiv">设置路口放大图上进度条显隐。
+        <div class="jd-descrdiv">设置路口放大图上进度条显隐。默认为true
 
  <p>NOTE: 当路口放大图正展示时，调用此方法不支持立即生效，会在下次展示生效。</p></div>
   
@@ -824,7 +852,7 @@ Summary:
         <td class="jd-linkcol" width="100%">
         <span class="sympad"><a href="../../../../../com/tencent/map/navi/car/CarNaviView.html#setEnlargedIntersectionVisible(boolean)">setEnlargedIntersectionVisible</a></span>(boolean visible)
         
-        <div class="jd-descrdiv">设置路口放大图的显隐。
+        <div class="jd-descrdiv">设置路口放大图的显隐。默认为true
 
  <p>NOTE : 只控制非全览模式下的显隐、全览模式下均不显示。</p></div>
   
@@ -844,7 +872,7 @@ Summary:
         <td class="jd-linkcol" width="100%">
         <span class="sympad"><a href="../../../../../com/tencent/map/navi/car/CarNaviView.html#setGuidedLaneVisible(boolean)">setGuidedLaneVisible</a></span>(boolean visible)
         
-        <div class="jd-descrdiv">设置车道线的显隐。
+        <div class="jd-descrdiv">设置车道线的显隐。默认为true
 
  <p>NOTE : 只控制非全览模式下的显隐、全览模式下均不显示。</p></div>
   
@@ -1738,6 +1766,93 @@ From interface
 <!-- Constants -->
 
 
+<!-- ========= ENUM CONSTANTS DETAIL ======== -->
+<h2>Constants</h2>
+
+
+
+
+<a id="ENLARGED_INTERSECTION_ASPECT_RATIO"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        float
+      </span>
+        ENLARGED_INTERSECTION_ASPECT_RATIO
+    </h4>
+      <div class="api-level">
+        
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>路口放大图的宽高比: 340.0f / 291.0f
+</p></div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                1.1683849
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<a id="ENLARGED_PROGRESS_PANEL_HEIGHT_DP"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        float
+      </span>
+        ENLARGED_PROGRESS_PANEL_HEIGHT_DP
+    </h4>
+      <div class="api-level">
+        
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>进度面板高度: 48dp， 其宽度自动适配，与放大图宽度保持一致。
+</p></div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                48.0
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+
 <!-- Fields -->
 
 
@@ -2442,7 +2557,7 @@ From interface
       </div>
     <div class="jd-details-descr">
       
-  <div class="jd-tagdata jd-tagdescr"><p>设置路口放大图上进度条显隐。
+  <div class="jd-tagdata jd-tagdescr"><p>设置路口放大图上进度条显隐。默认为true
 
  <p>NOTE: 当路口放大图正展示时，调用此方法不支持立即生效，会在下次展示生效。</p></p></div>
   <div class="jd-tagdata">
@@ -2538,7 +2653,7 @@ From interface
       </div>
     <div class="jd-details-descr">
       
-  <div class="jd-tagdata jd-tagdescr"><p>设置路口放大图的显隐。
+  <div class="jd-tagdata jd-tagdescr"><p>设置路口放大图的显隐。默认为true
 
  <p>NOTE : 只控制非全览模式下的显隐、全览模式下均不显示。</p></p></div>
   <div class="jd-tagdata">
@@ -2581,7 +2696,7 @@ From interface
       </div>
     <div class="jd-details-descr">
       
-  <div class="jd-tagdata jd-tagdescr"><p>设置车道线的显隐。
+  <div class="jd-tagdata jd-tagdescr"><p>设置车道线的显隐。默认为true
 
  <p>NOTE : 只控制非全览模式下的显隐、全览模式下均不显示。</p></p></div>
   <div class="jd-tagdata">

@@ -1351,6 +1351,28 @@
 <parameter name="extraPoints" type="java.util.ArrayList&lt;LatLng&gt;">
 </parameter>
 </method>
+<field name="ENLARGED_INTERSECTION_ASPECT_RATIO"
+ type="float"
+ transient="false"
+ volatile="false"
+ value="1.1683849f"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="ENLARGED_PROGRESS_PANEL_HEIGHT_DP"
+ type="float"
+ transient="false"
+ volatile="false"
+ value="48.0f"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 </class>
 <class name="CarRouteSearchOptions"
  extends="RouteSearchOptions"
