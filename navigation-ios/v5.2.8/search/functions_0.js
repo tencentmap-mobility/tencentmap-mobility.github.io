@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['_5f_5fattribute_5f_5f_669',['__attribute__',['../interface_t_n_k_car_navi_manager.html#a1ec1d21ee48d6beadad783cc6fe34c09',1,'TNKCarNaviManager::__attribute__()'],['../interface_t_n_k_car_navi_view.html#a32b412804fccffff560f09b0ccc2734c',1,'TNKCarNaviView::__attribute__((deprecated(&quot;已废弃，使用TNKBaseNaviView的fix3DProportion，since 5.2.6&quot;)))'],['../interface_t_n_k_car_navi_view.html#a615692a284a7954bc3998ca0b62aa692',1,'TNKCarNaviView::__attribute__((deprecated(&quot;已废弃，使用TNKBaseNaviView的fix2DProportion，since 5.2.6&quot;)))'],['../interface_t_n_k_car_route_search_route_plan.html#a3ae220a01f7dd34bd3975ad6ec7e1533',1,'TNKCarRouteSearchRoutePlan::__attribute__()'],['../interface_t_n_k_route_traffic_data.html#a7940201e4e2b016c0372c7ec72253553',1,'TNKRouteTrafficData::__attribute__()']]]
+];
