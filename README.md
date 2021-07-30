@@ -43,4 +43,4 @@
 
 # 导航接入文档
 -  [iOS导航SDK接入文档](navigation-ios/docs-5.2.6/腾讯iOS导航SDK接入文档v5.2.6.pdf)
--  [Android导航SDK接入文档](navigation-android/docs-5.2.6/腾讯Android导航SDK接入文档v5.2.6.pdf)
+-  [Android导航SDK接入文档](navigation-android/docs-5.3.0/腾讯Android导航SDK接入文档v5.3.0.pdf)
