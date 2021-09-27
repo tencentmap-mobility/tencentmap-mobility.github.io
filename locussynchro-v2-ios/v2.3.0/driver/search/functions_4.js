@@ -1,0 +1,7 @@
+var searchData=
+[
+  ['removerelayorder_92',['removeRelayOrder',['../category_t_l_s_driver_manager_07_navigation_08.html#ac8941a4caf70ed876459bf3d396f6dc5',1,'TLSDriverManager(Navigation)::removeRelayOrder()'],['../interface_t_l_s_driver_manager.html#ac8941a4caf70ed876459bf3d396f6dc5',1,'TLSDriverManager::removeRelayOrder()']]],
+  ['requestbestsortedwaypointswithstartpoint_3aendpoint_3awaypoints_3acompletion_3a_93',['requestBestSortedWayPointsWithStartPoint:endPoint:wayPoints:completion:',['../category_t_l_s_driver_manager_07_navigation_08.html#a6178ac1793ace2f16390992bef471d7c',1,'TLSDriverManager(Navigation)::requestBestSortedWayPointsWithStartPoint:endPoint:wayPoints:completion:()'],['../interface_t_l_s_driver_manager.html#a6178ac1793ace2f16390992bef471d7c',1,'TLSDriverManager::requestBestSortedWayPointsWithStartPoint:endPoint:wayPoints:completion:()']]],
+  ['requestridesharingbestsortedwaypointswithstartpoint_3awaypoints_3acompletion_3a_94',['requestRideSharingBestSortedWayPointsWithStartPoint:wayPoints:completion:',['../category_t_l_s_driver_manager_07_navigation_08.html#a6c792e47c6c91a0ba11e02a7b376982c',1,'TLSDriverManager(Navigation)::requestRideSharingBestSortedWayPointsWithStartPoint:wayPoints:completion:()'],['../interface_t_l_s_driver_manager.html#a6c792e47c6c91a0ba11e02a7b376982c',1,'TLSDriverManager::requestRideSharingBestSortedWayPointsWithStartPoint:wayPoints:completion:()']]],
+  ['resetorderinfo_95',['resetOrderInfo',['../interface_t_l_s_driver_manager.html#a0a8d924ab096ae2ed81dae0b56f8b9f9',1,'TLSDriverManager']]]
+];
