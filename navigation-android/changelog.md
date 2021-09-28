@@ -1,5 +1,13 @@
 # Android导航SDK Changelog
 
+## v5.3.2 (2021-09-27)
+1. NaviPoi新增setSearchNaviPoiType()方法。开发者可选择起终点参数是否使用区域面反查POI策略;
+2. CarNaviManager新增changeDestinationAndWays ()方法，导航过程可同时修改终点、途径点;
+3. CarNaviView新增setEnlargedIntersectionAspectRatio()字段，路口放大图可修改宽高比;
+4. 补齐限停摄像头;
+5. NaviPoi算路起终点新增setPoiName()方法，允许开发者传入，该参数暂不影响算路策略;
+6. 修复了开启多路线时，开启导航、偏航时导航卡顿的问题。
+
 ## v5.3.1 (2021-09-01)
 1. 新增导航过程修改途径点接口;
 2. 新增导航过程中修改目的地接口；
