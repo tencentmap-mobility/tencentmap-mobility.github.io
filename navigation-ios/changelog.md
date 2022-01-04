@@ -1,5 +1,20 @@
 # iOS导航SDK Changelog
 
+## v5.3.4 (2021-11-29)
+1.	重构导航服务数据序列化反序列化模块。
+2. 优化电子眼展示，支持最多3排展示。
+3. 优化放大图预下载机制。
+4. 优化伴随气泡展示位置。
+5. 更新导航路线上的红绿灯图片资源，展示效果更佳。
+6. 调整CarNaviView默认的最小比例尺，从14调整为15。
+
+## v5.3.3 (2021-10-29)
+1.	TNKCarNaviManager新增导航中修改算路策略方法(changeSearchOptions:);
+2. TNKCarRouteSearchOption新增算路策略：是否大路优先(bigRoad)、是否优先时间短(shortTime)、是否优先高速(highway)；
+3. TNKCarNaviUIDelegate新增回调：carNavigationManager:showGuidedLaneInfo:，展示车道线时提供扩展信息；
+4. TNKCarSearchOptions新增参数initialRouteID、initialNaviSessionID用于乘客选路功能。
+
+
 ## v5.3.2 (2021-09-27)
 1.	TNKSearchNaviPoi新增searchNaviPoiType字段。开发者可选择起终点参数是否使用区域面反查POI策略
 2.	TNKCarNaviManager新增changeDestination:wayPoints:方法，导航过程可同时修改终点、途径点;
